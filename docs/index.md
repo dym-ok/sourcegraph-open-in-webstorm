@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+# Open in WebStorm Sourcegraph extension
 
-You can use the [editor on GitHub](https://github.com/1inuxoid/sourcegraph-open-in-webstorm/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+Provides a button for the sidebar of the Sourcegraph app that will open the current file in [WebStorm](https://www.jetbrains.com/webstorm/).
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Based on [sourcegraph/sourcegraph-open-in-intellij](https://github.com/sourcegraph/sourcegraph-open-in-intellij).
 
-### Markdown
+<picture>
+<source srcset="https://user-images.githubusercontent.com/37420160/96809054-23450b80-13e8-11eb-8e76-a0556e3b41e6.png" media="(prefers-color-scheme: dark)" />
+<source srcset="https://user-images.githubusercontent.com/37420160/96809032-16281c80-13e8-11eb-9b24-3787300ee66f.png" media="(prefers-color-scheme: light)" />
+<img src="https://user-images.githubusercontent.com/37420160/96809032-16281c80-13e8-11eb-9b24-3787300ee66f.png" alt="Screenshot" />
+</picture>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Settings
 
-```markdown
-Syntax highlighted code block
+- `openInWebstorm.basePath` - The absolute path on your computer where your git repositories live. This extension requires all git repos to be already cloned under this path with their original names. `"/Users/yourusername/src"` is a valid absolute path, while `"~/src"` is not.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/1inuxoid/sourcegraph-open-in-webstorm/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
