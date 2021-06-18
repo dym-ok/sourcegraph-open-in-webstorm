@@ -5,9 +5,9 @@ Provides a button for the sidebar of the Sourcegraph app that will open the curr
 Based on [sourcegraph/sourcegraph-open-in-intellij](https://github.com/sourcegraph/sourcegraph-open-in-intellij).
 
 <picture>
-<source srcset="https://user-images.githubusercontent.com/37420160/96809054-23450b80-13e8-11eb-8e76-a0556e3b41e6.png" media="(prefers-color-scheme: dark)" />
-<source srcset="https://user-images.githubusercontent.com/37420160/96809032-16281c80-13e8-11eb-9b24-3787300ee66f.png" media="(prefers-color-scheme: light)" />
-<img src="https://user-images.githubusercontent.com/37420160/96809032-16281c80-13e8-11eb-9b24-3787300ee66f.png" alt="Screenshot" />
+<source srcset="https://1inuxoid.github.io/sourcegraph-open-in-webstorm/image_dark_theme.png" media="(prefers-color-scheme: dark)" />
+<source srcset="https://1inuxoid.github.io/sourcegraph-open-in-webstorm/image_light_theme.png" media="(prefers-color-scheme: light)" />
+<img src="https://1inuxoid.github.io/sourcegraph-open-in-webstorm/image_dark_theme.png" alt="Screenshot" />
 </picture>
 
 ## Settings

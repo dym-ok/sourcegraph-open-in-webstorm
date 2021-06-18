@@ -4,7 +4,7 @@ Provides a button for the sidebar of the Sourcegraph app that will open the curr
 
 Based on [sourcegraph/sourcegraph-open-in-intellij](https://github.com/sourcegraph/sourcegraph-open-in-intellij).
 
-|![Dark theme](image_dark_theme.png)|![Light theme](image_light_theme.png)|
+![Dark theme](image_dark_theme.png)![Light theme](image_light_theme.png)
 
 ## Settings
 
