@@ -1,4 +1,3 @@
-
 name: "publish-sourcegraph-extension"
 
 on:
@@ -9,8 +8,6 @@ on:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    
-
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
@@ -19,9 +16,7 @@ jobs:
           cache: yarn
       - run: yarn install
       - name: fetch-src-cli
-        run: curl -L https://sourcegraph.example.com/.api/src-cli/src_linux_amd64 -o ./src &&
-chmod +x ./src
-
+        run: curl -L https://sourcegraph.example.com/.api/src-cli/src_linux_amd64 -o ./src && chmod +x ./src
       - name: publish
         env:
           SRC_ENDPOINT: https://sourcegraph.com
