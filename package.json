@@ -54,13 +54,13 @@
       "editor/title": [
         {
           "action": "openInWebstorm.open.file",
-          "when": "resource.type === 'textDocument'"
+          "when": "resource"
         }
       ],
       "commandPalette": [
         {
           "action": "openInWebstorm.open.file",
-          "when": "resource.type === 'textDocument'"
+          "when": "resource"
         }
       ]
     },
